@@ -46,9 +46,7 @@ void loop() {
 
     values = sensor_data;
 
-    //get comma indexes from values variable
-
-    //get sensors data from values variable by  spliting by commas and put in to variables
+    //get sensors data from values variable by spliting by commas and put in to variables
     String temperature = values.substring(0, 5);
     String humidity = values.substring(6, 11);
 
@@ -63,7 +61,7 @@ void loop() {
     lcd.print(humidity);
 
   }
-  delay(1050);
+  delay(2000);
 
 }
 void initialize() {
