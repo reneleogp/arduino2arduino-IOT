@@ -1,6 +1,6 @@
 # Send sensor data from one Arduino UNO to another using esp8266 and Firebase
 
-In this cool [IOT](https://en.wikipedia.org/wiki/Internet_of_things) project you read data from a humidity and temperature sensor connected to one Arduino UNO. Send this data to [Firebase](https://firebase.google.com/) using an esp8266 module and then download the data in another Arduino UNO using an esp8266, to finally display it onto an LCD. 
+In this cool [IoT](https://en.wikipedia.org/wiki/Internet_of_things) project, you read data from a humidity and temperature sensor connected to one Arduino UNO. Send this data to [Firebase](https://firebase.google.com/) using an esp8266 module and then download the data in another Arduino UNO using an esp8266, to finally display it onto an LCD. 
 
 ## Components and Supplies:
 - Two Arduino UNO
@@ -26,7 +26,7 @@ In this cool [IOT](https://en.wikipedia.org/wiki/Internet_of_things) project you
 
 - Code not uploading to ESP8266:
   - Select the esp8266 generic board.
-  - Follow this step by step [video](https://www.youtube.com/watch?v=ZJnpgYlelEA&t=0s). They connect a NodeMCU to the ESP8266 but you can use the same connections to the Arduino UNO.
+  - Follow this step-by-step [video](https://www.youtube.com/watch?v=ZJnpgYlelEA&t=0s). They connect a NodeMCU to the ESP8266 but you can use the same connections to the Arduino UNO.
   - If the code is still not uploading and giving you an error do [this](https://www.youtube.com/watch?v=tXmM03HMgeg).
   - If still not working unplug, reconnect, try to upload and then try the previous solution again.
 
@@ -42,6 +42,6 @@ In this cool [IOT](https://en.wikipedia.org/wiki/Internet_of_things) project you
   - Re-check your pins
   - Make sure you are only printing the values you want to share between the Arduino and the ESP8266 in the Serial Monitor. If you print things like "connected" or any other thing the code will not work.
 
-- As advice, I would suggest you create a google sheet or excel with the colours you are using for the esp8266 so you don't get confused.
+- As for advice, I would suggest you create a google sheet or excel with the colours you are using for the esp8266 so you don't get confused.
 - If you get it to work and the LCD prints something weird it should fix it after a few seconds. This may occur due to Serial communication delays. 
   
