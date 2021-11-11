@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
-#define FIREBASE_HOST "arduino-final-f8154-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "fe830SpD5qJVo4xISkc43JGgKw9Bm4Ic5dQtEKCr"
-#define WIFI_SSID "HWDSB-GUEST"
-#define WIFI_PASSWORD "Education"
+#define FIREBASE_HOST "YOUR_FIREBASE_LINK"
+#define FIREBASE_AUTH "YOUR_FIREBASE_TOKEN"
+#define WIFI_SSID "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD "YOUR_WIFI_PASSWORD"
 
 String sensor_data, values;
 
