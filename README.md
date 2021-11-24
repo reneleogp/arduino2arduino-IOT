@@ -17,7 +17,7 @@ In this cool [IoT](https://en.wikipedia.org/wiki/Internet_of_things) project, yo
 3.  [Connect the other Arduino to the DHT11 Sensor and try a template code](https://create.arduino.cc/projecthub/techno_z/dht11-temperature-humidity-sensor-98b03b).
 4.  [Connect ESP8266 to Firebase to Send & Receive Data](https://create.arduino.cc/projecthub/pulasthi-Narada/connecting-esp8266-to-firebase-to-send-receive-data-4adf66).
 5.  Follow this tutorial carefully [Send sensor data to Firebase](https://create.arduino.cc/projecthub/pulasthi-Narada/send-multiple-sensors-data-to-firebase-using-esp8266-f2f38b).
-6.  Now that you know how to upload and receive data, you can upload the actual code to the esp8266s connected to the Arduinos and to the Arduinos.
+6.  Now that you know how to upload and receive data, you can upload the actual code to the esp8266s connected to the Arduinos and the Arduinos.
 7.  Feel free to modify it if needed. Keep in mind that you should leave delay.
    
 # Common Errors and advice:
@@ -37,7 +37,7 @@ In this cool [IoT](https://en.wikipedia.org/wiki/Internet_of_things) project, yo
   -  Re-check your pins, select Arduino UNO board.
 
 - Not working after uploading both codes:
-  - Connect the ESP8266 RX pin to Uno's TX pin and ESP8266 TX pin to Uno's RX pin. Yes, you have to connect them in the opposite way. Don't ask me why. Just do it.
+  - Connect the ESP8266 RX pin to Uno's TX pin and ESP8266 TX pin to Uno's RX pin. Yes, you have to connect them oppositely. Don't ask me why. Just do it.
   - Disconnect the ESP8266 GPIO-0 (IO0) from GND.
   - Re-check your pins
   - Make sure you are only printing the values you want to share between the Arduino and the ESP8266 in the Serial Monitor. If you print things like "connected" or any other thing the code will not work.
